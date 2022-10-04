@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d _site"
+    "start": "bundle exec jekyll s --watch --incremental --future -V -P 4444",
+    "build": "bundle exec jekyll build --future -V",
+    "deploy": "npm run build && gh-pages -d _site"
   },
   "repository": {
     "type": "git",
