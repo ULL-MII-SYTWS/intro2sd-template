@@ -99,7 +99,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/michael-rose.jpg"
-  bio              : "A DMSI Student"
+  bio              : "A Student"
   location         : "Islas Canarias"
   links:
     - label: "Made Mistakes"
