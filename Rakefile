@@ -1,5 +1,5 @@
 task :serve do
-  sh "bundle exec jekyll s --watch --incremental --future -V -P 4444"
+  sh "bundle exec jekyll s --watch --incremental --future -V -P 4001"
 end
 
 task :build do
